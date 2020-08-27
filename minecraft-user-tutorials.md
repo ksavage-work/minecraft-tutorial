@@ -4,67 +4,66 @@ Step by step tutorials are authored in markdown and automatically converted by t
 
 For more information, check out this [authoring tutorials video](https://www.youtube.com/watch?v=S2V-mLlm-sQ&list=PLMMBk9hE-Serm1gkooPSYGMOaGkGjMZq2&index=47&t=0s).
 
-## Table of Contentes
+## Table of Contents
 
-[How tutorials work](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#how-tutorials-work)
+1. [How tutorials work](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#how-tutorials-work)
 
-[Tutorial documents](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-documents)
+2. [Tutorial documents](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-documents)
 
-[Tutorial format](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-format)
+3. [Tutorial format](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-format)
 
-* [Metadata](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#metadata)
+  a. [Metadata](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#metadata) 
 
-* [Title](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#title)
+  b. [Title](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#title)
 
-* [Activities](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#activities)
+  c. [Activities](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#activities)
 
-* [Steps](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#steps)
+  d. [Steps](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#steps)
 
-* [Hints](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#hints)
+  e. [Hints](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#hints)
 
-* [Images](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#images)
+  f. [Images](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#images)
 
-[Step modifiers](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#step-modifiers)
+4. [Step modifiers](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#step-modifiers)
 
-* [fullscreen](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#fullscreen)
+ a. [fullscreen](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#fullscreen)
 
-* [unplugged](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#unplugged)
+ b. [unplugged](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#unplugged)
   
-* [tutorialCompleted](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorialcompleted)
+ c. [tutorialCompleted](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorialcompleted)
 
-[Using blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#using-blocks)
+5. [Using blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#using-blocks)
 
-* [Hint blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#hint-blocks)
+ a.  [Hint blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#hint-blocks)
 
-* [Ghost blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#ghost-blocks)
+ b. [Ghost blocks](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#ghost-blocks)
   
-* [Templates](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#templates)
+ c. [Templates](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#templates)
 
-* [JRes](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#jres)
+ d. [JRes](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#jres)
 
-[Using Python](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#using-python)
+6. [Using Python](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#using-python)
 
-[Python snippets](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#python-snippets)
+7. [Python snippets](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#python-snippets)
 
-[Spy snippets (JavaScript to Python)](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#spy-snippets-javascript-to-python)
+8. [Spy snippets (JavaScript to Python)](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#spy-snippets-javascript-to-python)
 
-[Other languages](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#other-languages)
+9. [Other languages](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#other-languages)
 
-[Adding tutorials to the home screen](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#adding-tutorials-to-the-home-screen)
+10. [Adding tutorials to the home screen](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#adding-tutorials-to-the-home-screen)
 
-* [JavaScript and Python tutorial ("Spy tutorials")](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#javascript-and-python-tutorial-spy-tutorials)
+ a. [JavaScript and Python tutorial ("Spy tutorials")](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#javascript-and-python-tutorial-spy-tutorials)
   
-* [In-context tutorials](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#in-context-tutorials)
+ b. [In-context tutorials](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#in-context-tutorials)
 
-[Testing](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#testing)
+11. [Testing](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#testing)
 
-[Example](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#example)
+12. [Example](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#example)
 
-[Translations](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#translations)
+13. [Translations](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#translations)
 
-[Dependencies](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#dependencies)
+14. [Dependencies](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#dependencies)
 
-[TOC]
 
 ## How tutorials work
 
