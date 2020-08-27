@@ -2,7 +2,7 @@
 
 Step by step tutorials are authored in markdown and automatically converted by the editor. This page describes the format for these tutorials.
 
-For more information, check out this [authoring tutorials video](https://www.youtube.com/watch?v=S2V-mLlm-sQ&list=PLMMBk9hE-Serm1gkooPSYGMOaGkGjMZq2&index=47&t=0s).
+For more information, check out [this video](https://www.youtube.com/watch?v=S2V-mLlm-sQ&list=PLMMBk9hE-Serm1gkooPSYGMOaGkGjMZq2&index=47&t=0s) about authoring tutorials.
 
 ## Table of Contents
 
