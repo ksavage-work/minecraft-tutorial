@@ -84,7 +84,7 @@ You can write, edit, and test a tutorial with the online [Tutorial Tool](https:/
 
 Tutorials are simply markdown documents where each level 2 heading (``##``) is a new step. The tutorials can be located anywhere under the ``/docs`` folder although they usually are in the ``/docs/projects`` folder.
 
-A tutorial with the title '**Light blaster**' would have a path like this: _/docs/projects/light-blaster.md_.
+A tutorial with the title '**Chicken Rain**' would have a path like this: _/docs/projects/chicken-rain.md_.
 
 When a tutorial is chosen in the editor, the tutorial runner converts the content of the tutorial markdown into user interactions. If selected from the external documentation navigation, the tutorial is viewed the same as any other help document which allows it to be printed.
 
@@ -241,7 +241,7 @@ During an interaction, the step description (all text before the first code bloc
 Using images in steps is a simple and powerful way to reinforce concepts and convey ideas. Images can be included as part of step descriptions. You specify an image using the standard markdown format.
 
 ```markdown
-![Agent building a tower](/static/tutorials/agent-tower.png)
+![Chickens raining from sky](/static/tutorials/chicken-rain.png)
 ```
 
 A step with and image might have text like this:
@@ -501,16 +501,23 @@ Let's get started!
 
 ## Step 1 @fullscreen
 
-Welcome! Place the ``||basic:show string||`` block in the ``||basic:on start||`` slot to scroll your name.
+Welcome! Place the ``||player:on player walk||`` block onto the workspace.
 
 ```blocks
-basic.showString("Micro!")
+player.onTravelled(WALK, function () {
+
+})
 ```
 
 ## Step 2
 
-Click ``|Download|`` to transfer your code in your @boardname@!
+Get a ``||blocks:place||`` and put it inside ``||player:on player walk||``. Change the Grass block to Dandelion in the choices for blocks.
 
+```blocks
+player.onTravelled(WALK, function () {
+    blocks.place(YELLOW_FLOWER, pos(0, 0, 0))
+})
+```
 ````
 
 ## Translations
