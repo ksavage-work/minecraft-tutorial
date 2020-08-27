@@ -12,7 +12,7 @@ For more information, check out this [authoring tutorials video](https://www.you
 
 3. [Tutorial format](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-format)
 
-  a. [Metadata](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#metadata) 
+  * [Metadata](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#metadata) 
 
   b. [Title](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#title)
 
