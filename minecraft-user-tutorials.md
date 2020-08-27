@@ -2,6 +2,8 @@
 
 Step by step tutorials are authored in markdown and automatically converted by the editor. This page describes the format for these tutorials.
 
+For more information, check out this [authoring tutorials video](https://www.youtube.com/watch?v=S2V-mLlm-sQ&list=PLMMBk9hE-Serm1gkooPSYGMOaGkGjMZq2&index=47&t=0s).
+
 ## Table of Contentes
 
 [How tutorials work](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#how-tutorials-work)
@@ -61,6 +63,8 @@ Step by step tutorials are authored in markdown and automatically converted by t
 [Translations](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#translations)
 
 [Dependencies](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#dependencies)
+
+[TOC]
 
 ## How tutorials work
 
