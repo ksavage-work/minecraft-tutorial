@@ -52,9 +52,9 @@ For more information, check out this [authoring tutorials video](https://www.you
 
 10. [Adding tutorials to the home screen](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#adding-tutorials-to-the-home-screen)
 
-   * [JavaScript and Python tutorial ("Spy tutorials")](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#javascript-and-python-tutorial-spy-tutorials)
+      * [JavaScript and Python tutorial ("Spy tutorials")](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#javascript-and-python-tutorial-spy-tutorials)
 
-   * [In-context tutorials](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#in-context-tutorials)
+      * [In-context tutorials](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#in-context-tutorials)
 
 11. [Testing](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#testing)
 
