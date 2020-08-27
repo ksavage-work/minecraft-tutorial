@@ -6,7 +6,7 @@ Step by step tutorials are authored in markdown and automatically converted by t
 
 [How tutorials work](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#how-tutorials-work)
 
-[Tutorial documents](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorials-documents)
+[Tutorial documents](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-documents)
 
 [Tutorial format](https://github.com/ksavage-work/minecraft-tutorial/blob/master/minecraft-user-tutorials.md#tutorial-format)
 
