@@ -92,8 +92,8 @@ When a tutorial is chosen in the editor, the tutorial runner converts the conten
 
 #### A real example
 
-See the micro:bit tutorials [**flashing-heart.md**](https://github.com/Microsoft/pxt-microbit/blob/master/docs/projects/flashing-heart.md) and
-[**rock-paper-scissors.md**](https://github.com/Microsoft/pxt-microbit/blob/master/docs/projects/rock-paper-scissors.md).
+See the Minecraft tutorials [**chicken-rain.md**](https://github.com/Microsoft/pxt-minecraft/tree/master/docs/tutorials/chicken-rain.md) and
+[**flower-trail.md**](https://github.com/Microsoft/pxt-microbit/tree/master/docs/tutorials/flower-trail.md).
 
 ### ~
 
@@ -125,7 +125,7 @@ For a step based tutorial, the title is on the first line and uses a _level 1_ h
 
 
 ```markdown
-# Light blaster
+# Chicken rain
 ```
 
 In an activity style tutorial, the title can appear in a psuedo-activity that serves as an introduction. The title is also displayed in the tutorial control bar.
@@ -137,11 +137,11 @@ In an activity style tutorial, the title can appear in a psuedo-activity that se
 
 ### Introduction step @unplugged
 
-![Lights flashing](/static/tutorials/light-blaster/flashing-lights.gif)
+![Chicken Rain](/static/tutorials/light-blaster/flashing-lights.gif)
 
-# Light blaster
+# Chicken Rain
 
-The amazing blast of bright light! Make a program to flash the LEDs.
+Let's get started with coding in Minecraft! Why not add some life to your world? Maybe a chicken... No, let's have **LOTS OF CHICKENS**!!!
 ```
 
 ### Activities
@@ -201,7 +201,7 @@ The text in the heading is shown only when the tutorial is viewed as a help page
 >--or--
 
 ```markdown
-## Flash all the LEDs on and off twice
+## Make the sky rain chickens
 ```
 
 The editor automatically parses the markdown and populates the user interface from each step section.
@@ -220,10 +220,11 @@ If the **explicitHints** flag is specified in the tutorial metadata, the tutoria
 
 ````markdown
 #### ~ tutorialhint
-Try clicking on the 'Basic' drawer to find the blocks you need! Your code should look like this:
+Put in an 'on chat' command and rename it to chicken.
 
 ```blocks
-basic.showString("Micro!")
+player.onChat("chicken", function () {
+})
 ```
 ````
 
@@ -281,13 +282,13 @@ To add a special behavior to a step, use a step modifier:
 If you want to include a dramatic introduction or make certain that a special message is seen, you can use the ``@fullscreen`` tag. The section is displayed in an overlay window on top of the tutorial screen and isn't shown in the caption as part of the tutorial flow. You include it in your tutorial like this:
 
 ```markdown
-# Flash-a-rama
+# Chicken Rain
 
 ## It's time to code! @fullscreen
 
-Let's get real bright. We're going to make all the lights flash on your board!
+Let's get started with coding in Minecraft! Why not add some life to your world? Maybe a chicken... No, let's have **LOTS OF CHICKENS**!!!
 
-![Flash lights](/static/tutorials/lights-flashing.gif)
+![Chicken Rain](/static/tutorials/chicken-rain.gif)
 
 ## Step 1: Make a new variable
 
@@ -299,7 +300,7 @@ Let's get real bright. We're going to make all the lights flash on your board!
 If you want to display your tutorial step in a dialog and then have it skip to the next step automatically, use ``@unplugged``. This feature is typically used for introductory steps.
 
 ```markdown
-# Flash-a-rama
+# Chicken Rain
 
 ## It's time to code! @unplugged
 
@@ -311,7 +312,7 @@ If you want to display your tutorial step in a dialog and then have it skip to t
 To signify that this step in the tutorial is the "last step", even if more steps are present in the markdown, use ``@tutorialCompleted``. This has no impact on how tutorial progress is displayed; it is only used by MakeCode editors that do something external when a tutorial is completed.
 
 ```markdown
-# Flash-a-rama
+# Chicken Rain
 
 ## This is the last step @tutorialCompleted
 
@@ -327,14 +328,14 @@ If you include blocks in a step, they are shown when the user displays the hint 
 The blocks are specified the same as in any other markdown document. During the step interaction, only the blocks inside the ```` ```blocks```` section are available in the categories (drawers) of the Toolbox.
 
 ````
-## Step 3 - Show the temperature
+## Step 3 - Spawn Chicken
 
-Get a ``||input:temperature||`` block and place it in the value slot of ``||basic:show number||``.
+Put in ``||mobs:spawn||`` to spawn a chicken at your position.  
+The code under ``||player:on chat command||`` will run when you type **chicken** in the Minecraft chat. **~0 ~0 ~0** is the relative 3D position of the player.
 
 ```blocks
-forever(function() {
-    basic.showNumber(input.temperature())
-    basic.pause(1000)
+player.onChat("chicken", function () {
+    mobs.spawn(CHICKEN, pos(0, 0, 0))
 })
 ```
 ````
@@ -344,17 +345,19 @@ forever(function() {
 If you want extra blocks to appear in the Toolbox drawers during a step, then you add a ghost blocks section. This informs the user that additional blocks beyond those that are shown in the hint are availble to form a solution.
 
 ````
-Get a ``||input:temperature||`` block and place it in the value slot of ``||basic:show number||``. You can also make a temperature message if you want.
+## Step 3 - Spawn Chicken
+
+Put in ``||mobs:spawn||`` to spawn a chicken at your position.  
+The code under ``||player:on chat command||`` will run when you type **chicken** in the Minecraft chat. **~0 ~0 ~0** is the relative 3D position of the player.
 
 ```blocks
-forever(function() {
-    basic.showNumber(input.temperature())
-    basic.pause(1000)
+player.onChat("chicken", function () {
+    mobs.spawn(CHICKEN, pos(0, 0, 0))
 })
 ```
 
 ```ghost
-basic.showString("Hello!")
+player.teleport(pos(0, 0, 0))
 ```
 ````
 
@@ -431,7 +434,7 @@ at display time. Use the ``spy`` section:
 
 ````
 ```spy
-basic.showString("Hello!")
+player.teleport(pos(0, 0, 0))
 ```
 ````
 
@@ -441,11 +444,11 @@ Note that if the target supports python, then snippets are written in the usual 
 
 ````
 ```typescript
-basic.showString("Hello!")
+mobs.spawn(CHICKEN, pos(0, 10, 0))
 ```
 or
 ```blocks
-basic.showString("Hello!")
+mobs.spawn(CHICKEN, pos(0, 10, 0))
 ```
 ````
 
