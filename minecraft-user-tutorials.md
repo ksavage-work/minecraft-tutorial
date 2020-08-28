@@ -137,7 +137,7 @@ In an activity style tutorial, the title can appear in a psuedo-activity that se
 
 ### Introduction step @unplugged
 
-![Chicken Rain](/static/tutorials/light-blaster/flashing-lights.gif)
+![Chicken Rain](/static/tutorials/chicken-rain.gif)
 
 # Chicken Rain
 
@@ -251,7 +251,7 @@ A step with and image might have text like this:
 
 Have the agent build a tower! Make a command to tell it how many levels to build.
 
-![Agent building a tower](/static/tutorials/agent-tower.png)
+![Chickens raining from sky](/static/tutorials/chicken-rain.png)
 ```
 
 Images appear in steps that have either the [fullscreen](#fullscreen) or [unplugged](#unplugged) modifiers present, or when a step hint is viewed.
